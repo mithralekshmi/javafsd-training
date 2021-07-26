@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script src="Eg41.js">
+function getElements() {
+  var x = document.getElementsByName("x");
+  document.getElemenById("demo").innerHTML = x.length;
+}
+</script>
+</head>
+<body>
+
+<p>
+Cats: <input name="x" type="radio" value="Cats">
+Dogs: <input name="x" type="radio" value="Dogs">
+</p>
+
+<p>
+<input type="button" onclick="getElements()" value="How many elements named x?">
+</p>
+
+<p id="demo"></p>
+
+
+</body>
+</html>

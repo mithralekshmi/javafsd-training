@@ -1,0 +1,21 @@
+@charset "ISO-8859-1";
+
+body{
+background-color: lightgrey;
+}
+h1{
+font_family:verdana;
+font_size:40px;
+text-align:center
+}
+p{
+color: red;
+text-align:left;
+
+}
+table,th,td{
+border:1px solid black;}
+table{
+width:100%;
+}
+
